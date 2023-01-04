@@ -14,7 +14,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				-7,
+				-5,
 				2
 			],
 			"anim": "singLEFT",
@@ -25,8 +25,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				1,
-				-37
+				-20,
+				-28
 			],
 			"anim": "singDOWN",
 			"fps": 24,
@@ -36,8 +36,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-60,
-				32
+				-66,
+				36
 			],
 			"anim": "singUP",
 			"fps": 24,
@@ -47,8 +47,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-53,
-				-8
+				-48,
+				-7
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
@@ -58,52 +58,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-11,
-				2
-			],
-			"anim": "singLEFTmiss",
-			"fps": 24,
-			"name": "BF NOTE LEFT MISS",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-9,
-				-31
-			],
-			"anim": "singDOWNmiss",
-			"fps": 24,
-			"name": "BF NOTE DOWN MISS",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-58,
-				27
-			],
-			"anim": "singUPmiss",
-			"fps": 24,
-			"name": "BF NOTE UP MISS",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-52,
+				-1,
 				6
-			],
-			"anim": "singRIGHTmiss",
-			"fps": 24,
-			"name": "BF NOTE RIGHT MISS",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-3,
-				5
 			],
 			"anim": "hey",
 			"fps": 24,
@@ -113,7 +69,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				15,
+				14,
 				18
 			],
 			"anim": "hurt",
@@ -124,7 +80,7 @@
 		{
 			"loop": true,
 			"offsets": [
-				-11,
+				-4,
 				0
 			],
 			"anim": "scared",
@@ -168,19 +124,19 @@
 		{
 			"loop": false,
 			"offsets": [
-				6,
-				-6
+				-10,
+				-16
 			],
 			"anim": "dodge",
-			"fps": 14,
+			"fps": 24,
 			"name": "boyfriend dodge",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				894,
-				-38
+				294,
+				267
 			],
 			"anim": "attack",
 			"fps": 24,
@@ -197,10 +153,54 @@
 			"fps": 24,
 			"name": "bf pre attack",
 			"indices": []
+		},
+		{
+			"offsets": [
+				-15,
+				-26
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "BF NOTE DOWN MISS"
+		},
+		{
+			"offsets": [
+				-46,
+				27
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "BF NOTE UP MISS"
+		},
+		{
+			"offsets": [
+				-49,
+				3
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "BF NOTE RIGHT MISS"
+		},
+		{
+			"offsets": [
+				-3,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "BF NOTE LEFT MISS"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BoyFriend_Cup",
+	"image": "characters/BoyFriend_BendyShade",
 	"position": [
 		0,
 		350
@@ -214,7 +214,7 @@
 	],
 	"camera_position": [
 		0,
-		-30
+		0
 	],
 	"sing_duration": 4,
 	"scale": 1
